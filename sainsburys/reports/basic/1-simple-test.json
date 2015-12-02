@@ -1,0 +1,42 @@
+{
+  "testId" : "1-simple-test",
+  "name" : "simple test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: ./tests/specs/users.gspec included tags: all,desktop",
+      "status" : "info",
+      "time" : 1445952386378,
+      "includedTags" : [ "all", "desktop" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./tests/specs/users.gspec",
+              "lineNumber" : 6
+            },
+            "name" : "height 30px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./tests/specs/users.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "text contains \"My home\"",
+            "highlight" : [ "header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header" : {
+          "area" : [ 8, 81, 610, 30 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

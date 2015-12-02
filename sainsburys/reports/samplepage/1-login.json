@@ -1,0 +1,18 @@
+{
+  "testId" : "1-login",
+  "name" : "login",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Open https://www.google.co.uk/",
+      "status" : "info",
+      "time" : 1445959823936,
+      "type" : "node"
+    }, {
+      "name" : "EcmaError: TypeError: Cannot call method \"loginAs\" of undefined (c:\\bkp\\projects\\git\\Sainsburys\\ComponentLibrary\\sainsburys\\tests\\specs\\samplepage.test.js#22)",
+      "status" : "error",
+      "time" : 1445959826612,
+      "stacktrace" : "org.mozilla.javascript.EcmaError: TypeError: Cannot call method \"loginAs\" of undefined (c:\\bkp\\projects\\git\\Sainsburys\\ComponentLibrary\\sainsburys\\tests\\specs\\samplepage.test.js#22)\r\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3689)\r\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3667)\r\n\tat org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3695)\r\n\tat org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3714)\r\n\tat org.mozilla.javascript.ScriptRuntime.undefCallError(ScriptRuntime.java:3731)\r\n\tat org.mozilla.javascript.ScriptRuntime.getPropFunctionAndThisHelper(ScriptRuntime.java:2257)\r\n\tat org.mozilla.javascript.ScriptRuntime.getPropFunctionAndThis(ScriptRuntime.java:2250)\r\n\tat org.mozilla.javascript.gen.c__bkp_projects_git_Sainsburys_ComponentLibrary_sainsburys_tests_specs_samplepage_test_js_20._c_anonymous_1(c:\\bkp\\projects\\git\\Sainsburys\\ComponentLibrary\\sainsburys\\tests\\specs\\samplepage.test.js:22)\r\n\tat org.mozilla.javascript.gen.c__bkp_projects_git_Sainsburys_ComponentLibrary_sainsburys_tests_specs_samplepage_test_js_20.call(c:\\bkp\\projects\\git\\Sainsburys\\ComponentLibrary\\sainsburys\\tests\\specs\\samplepage.test.js)\r\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\r\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\r\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\r\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\r\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\r\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\r\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\r\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\r\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\r\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\r\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\r\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\r\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\r\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\r\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\r\n\tat org.mozilla.javascript.Context.call(Context.java:489)\r\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\r\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\r\n\tat adapter1.execute(<adapter>)\r\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\r\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+      "type" : "node"
+    } ]
+  }
+}

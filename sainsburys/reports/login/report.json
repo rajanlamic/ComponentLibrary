@@ -1,0 +1,18 @@
+{
+  "tests" : [ {
+    "name" : "login test",
+    "startedAt" : 1446034015402,
+    "endedAt" : 1446034040629,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1-login-test",
+    "groups" : [ ],
+    "duration" : 25227,
+    "failed" : false
+  } ]
+}

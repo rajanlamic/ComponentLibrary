@@ -1,0 +1,18 @@
+{
+  "tests" : [ {
+    "name" : "simple test",
+    "startedAt" : 1445952604676,
+    "endedAt" : 1445952618761,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1-simple-test",
+    "groups" : [ ],
+    "failed" : false,
+    "duration" : 14085
+  } ]
+}

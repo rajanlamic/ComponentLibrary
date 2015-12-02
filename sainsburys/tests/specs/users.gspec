@@ -1,0 +1,7 @@
+@objects
+    header              id      users
+
+= Main section =
+    header:
+        height 30px
+        text contains "My home"

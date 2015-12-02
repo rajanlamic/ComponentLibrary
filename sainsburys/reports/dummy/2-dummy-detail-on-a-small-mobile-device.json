@@ -1,0 +1,55 @@
+{
+  "testId" : "2-dummy-detail-on-a-small-mobile-device",
+  "name" : "Dummy Detail on a small mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://localhost:3000/detail 320x600",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check   ./tests/specs/detail.gspec",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: ./tests/specs/detail.gspec included tags: ",
+          "status" : "info",
+          "time" : 1445948570483,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main section",
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/specs/detail.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "height 30px",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/specs/detail.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "text contains \"My Detail\"",
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 8, 81, 290, 30 ]
+            }
+          },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1445948569851,
+        "type" : "node"
+      } ],
+      "time" : 1445948559333,
+      "type" : "node"
+    } ]
+  }
+}

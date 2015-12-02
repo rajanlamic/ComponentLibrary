@@ -1,0 +1,6 @@
+@objects
+    login              .gb_P
+
+= Main section =
+    login:
+        text contains "Gmail"

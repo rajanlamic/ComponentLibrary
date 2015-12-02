@@ -1,0 +1,32 @@
+{
+  "tests" : [ {
+    "name" : "Dummy Users on a small mobile device",
+    "startedAt" : 1445948545304,
+    "endedAt" : 1445948559331,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1-dummy-users-on-a-small-mobile-device",
+    "groups" : [ "dummy" ],
+    "failed" : true,
+    "duration" : 14027
+  }, {
+    "name" : "Dummy Detail on a small mobile device",
+    "startedAt" : 1445948559333,
+    "endedAt" : 1445948571006,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "2-dummy-detail-on-a-small-mobile-device",
+    "failed" : false,
+    "duration" : 11673
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "tests" : [ {
+    "name" : "Detail Dump Test",
+    "startedAt" : 1445948355461,
+    "endedAt" : 1445948370876,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-detail-dump-test",
+    "duration" : 15415,
+    "failed" : false
+  }, {
+    "name" : "Users Dump Test",
+    "startedAt" : 1445948370877,
+    "endedAt" : 1445948383111,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-users-dump-test",
+    "duration" : 12234,
+    "failed" : false
+  } ]
+}

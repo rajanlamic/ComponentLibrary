@@ -1,0 +1,7 @@
+Detail Dump Test
+    http://localhost:3000/detail 320x600
+            dump   ./tests/specs/detail.gspec --name "Detail Page dump" --export "dumps/detail"
+
+Users Dump Test
+    http://localhost:3000/users 320x600
+            dump   ./tests/specs/users.gspec --name "Users Page dump" --export "dumps/users"

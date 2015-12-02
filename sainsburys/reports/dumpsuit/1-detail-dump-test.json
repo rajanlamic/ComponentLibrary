@@ -1,0 +1,18 @@
+{
+  "testId" : "1-detail-dump-test",
+  "name" : "Detail Dump Test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://localhost:3000/detail 320x600",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "dump   ./tests/specs/detail.gspec --name \"Detail Page dump\" --export \"dumps/detail\"",
+        "status" : "info",
+        "time" : 1445948368158,
+        "type" : "node"
+      } ],
+      "time" : 1445948355477,
+      "type" : "node"
+    } ]
+  }
+}

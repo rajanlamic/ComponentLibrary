@@ -1,0 +1,18 @@
+{
+  "testId" : "2-users-dump-test",
+  "name" : "Users Dump Test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://localhost:3000/users 320x600",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "dump   ./tests/specs/users.gspec --name \"Users Page dump\" --export \"dumps/users\"",
+        "status" : "info",
+        "time" : 1445948381682,
+        "type" : "node"
+      } ],
+      "time" : 1445948370878,
+      "type" : "node"
+    } ]
+  }
+}

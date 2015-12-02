@@ -1,0 +1,9 @@
+@@ groups dummy
+
+Dummy Users on a small mobile device
+    http://localhost:3000/users     320x600
+        check   ./tests/specs/users.gspec
+
+Dummy Detail on a small mobile device
+    http://localhost:3000/detail 320x600
+        check   ./tests/specs/detail.gspec

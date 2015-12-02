@@ -1,0 +1,43 @@
+{
+  "testId" : "1-login-test",
+  "name" : "login test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: ./tests/specs/login.gspec included tags: all,desktop",
+      "status" : "info",
+      "time" : 1446034040298,
+      "includedTags" : [ "all", "desktop" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "objects" : [ {
+          "name" : "login",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./tests/specs/login.gspec",
+              "lineNumber" : 6
+            },
+            "name" : "text contains \"Gmail\"",
+            "highlight" : [ "login" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "login" : {
+          "area" : [ 728, 19, 34, 24 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    }, {
+      "name" : "Click gmailLink on Welcome page",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "css: .gb_P",
+        "type" : "text"
+      } ],
+      "time" : 1446034040298,
+      "type" : "node"
+    } ]
+  }
+}

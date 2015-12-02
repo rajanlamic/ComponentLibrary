@@ -1,0 +1,18 @@
+@@ groups mobile-tablet-desktop
+
+@@ table devices
+    | deviceName | tags      | size     |
+    | Mobile     | mobile    | 320x600  |
+    | Tablet     | tablet    | 640x480  |
+    | Desktop    | desktop   | 1024x800 |
+
+
+@@ parameterized using devices
+Users on ${deviceName} device
+    http://localhost:3000/users     ${size}
+        check   ./tests/specs/users.gspec --include "${tags}"
+
+@@ parameterized using devices
+Detail page on ${deviceName} device
+    http://localhost:3000/detail ${size}
+        check   ./tests/specs/detail.gspec --include "${tags}"

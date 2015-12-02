@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "Users page on mobile",
+    "startedAt" : 1445953805017,
+    "endedAt" : 1445953818045,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-users-page-on-mobile",
+    "groups" : [ ],
+    "duration" : 13028,
+    "failed" : false
+  }, {
+    "name" : "Users page on tablet",
+    "startedAt" : 1445953818046,
+    "endedAt" : 1445953829561,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-users-page-on-tablet",
+    "groups" : [ ],
+    "duration" : 11515,
+    "failed" : false
+  }, {
+    "name" : "Users page on desktop",
+    "startedAt" : 1445953829561,
+    "endedAt" : 1445953841188,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "3-users-page-on-desktop",
+    "groups" : [ ],
+    "duration" : 11627,
+    "failed" : false
+  } ]
+}
